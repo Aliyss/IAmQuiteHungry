@@ -1,0 +1,8 @@
+{
+	"migros": {
+		"url": "https://login.migros.ch/login"
+	},
+	"cumulus": {
+		"url": "https://www.migros.ch/de/cumulus/konto~checkImmediate=true~.html"
+	}
+}
