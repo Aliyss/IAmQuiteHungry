@@ -1,5 +1,5 @@
 // Utils
-import { createStartPrompt } from "./utils/prompts/actionPrompt";
+import { createStartPrompt } from "./prompts/actionPrompt";
 
 (async () => {
 	await createStartPrompt()

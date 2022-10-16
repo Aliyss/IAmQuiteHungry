@@ -9,6 +9,7 @@
 		"lint-and-fix": "eslint . --ext .ts --fix",
 		"build": "rimraf ./build && tsc",
 		"start": "npm run build && node build/index.js",
+		"start:ts": "ts-node ./src/index.ts",
 		"start:dev": "nodemon"
 	},
 	"author": "",
@@ -26,9 +27,13 @@
 		"typescript": "^4.8.4"
 	},
 	"dependencies": {
+		"edge-paths": "^2.2.1",
 		"enquirer": "^2.3.6",
+		"migros-api-wrapper": "^1.0.4",
+		"open": "^8.4.0",
 		"pino": "^8.6.1",
 		"pino-pretty": "^9.1.1",
+		"puppeteer-core": "^19.0.0",
 		"superagent": "^8.0.2"
 	}
 }
