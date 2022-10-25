@@ -1,0 +1,2811 @@
+{
+	"offset": 0,
+	"number": 4,
+	"results": [
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 10,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 39,
+			"healthScore": 25,
+			"creditsText": "afrolems.com",
+			"sourceName": "afrolems.com",
+			"pricePerServing": 263.46,
+			"extendedIngredients": [
+				{
+					"id": 1022030,
+					"aisle": "Spices and Seasonings",
+					"image": "black-pepper.png",
+					"consistency": "SOLID",
+					"name": "black peppercorns",
+					"nameClean": "black peppercorns",
+					"original": "4 whole black peppercorns",
+					"originalName": "whole black peppercorns",
+					"amount": 4,
+					"unit": "",
+					"meta": [
+						"whole",
+						"black"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 1002006,
+					"aisle": "Spices and Seasonings",
+					"image": "cardamom.jpg",
+					"consistency": "SOLID",
+					"name": "cardamom pods",
+					"nameClean": "cardamom pods",
+					"original": "4 cardamom pods",
+					"originalName": "cardamom pods",
+					"amount": 4,
+					"unit": "",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 1002010,
+					"aisle": "Spices and Seasonings",
+					"image": "cinnamon.jpg",
+					"consistency": "SOLID",
+					"name": "cinnamon sticks",
+					"nameClean": "cinnamon stick",
+					"original": "4 cinnamon sticks",
+					"originalName": "cinnamon sticks",
+					"amount": 4,
+					"unit": "",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 2014,
+					"aisle": "Spices and Seasonings",
+					"image": "ground-cumin.jpg",
+					"consistency": "SOLID",
+					"name": "cumin seed",
+					"nameClean": "cumin seeds",
+					"original": "4 teaspoons of cumin seed powder",
+					"originalName": "cumin seed powder",
+					"amount": 4,
+					"unit": "teaspoons",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 11215,
+					"aisle": "Produce",
+					"image": "garlic.png",
+					"consistency": "SOLID",
+					"name": "garlic",
+					"nameClean": "garlic",
+					"original": "2 cloves of garlic",
+					"originalName": "garlic",
+					"amount": 2,
+					"unit": "cloves",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 2,
+							"unitShort": "cloves",
+							"unitLong": "cloves"
+						},
+						"metric": {
+							"amount": 2,
+							"unitShort": "cloves",
+							"unitLong": "cloves"
+						}
+					}
+				},
+				{
+					"id": 11216,
+					"aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+					"image": "ginger.png",
+					"consistency": "SOLID",
+					"name": "ginger",
+					"nameClean": "ginger",
+					"original": "1/2 teaspoon of ginger",
+					"originalName": "ginger",
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 1065062,
+					"aisle": null,
+					"image": "whole-chicken.jpg",
+					"consistency": "SOLID",
+					"name": "meat",
+					"nameClean": "meat",
+					"original": "1 pound of goat meat",
+					"originalName": "goat meat",
+					"amount": 1,
+					"unit": "pound",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "lb",
+							"unitLong": "pound"
+						},
+						"metric": {
+							"amount": 453.592,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 11282,
+					"aisle": "Produce",
+					"image": "brown-onion.png",
+					"consistency": "SOLID",
+					"name": "onion",
+					"nameClean": "onion",
+					"original": "1 small onion",
+					"originalName": "onion",
+					"amount": 1,
+					"unit": "small",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "small",
+							"unitLong": "small"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "small",
+							"unitLong": "small"
+						}
+					}
+				},
+				{
+					"id": 20444,
+					"aisle": "Pasta and Rice",
+					"image": "uncooked-white-rice.png",
+					"consistency": "SOLID",
+					"name": "rice",
+					"nameClean": "rice",
+					"original": "1.5 cups of Rice ( you can use basmati rice)",
+					"originalName": "Rice ( you can use basmati rice)",
+					"amount": 1.5,
+					"unit": "cups",
+					"meta": [
+						"canned",
+						"( you can use basmati rice)"
+					],
+					"measures": {
+						"us": {
+							"amount": 1.5,
+							"unitShort": "cups",
+							"unitLong": "cups"
+						},
+						"metric": {
+							"amount": 354.882,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 2047,
+					"aisle": "Spices and Seasonings",
+					"image": "salt.jpg",
+					"consistency": "SOLID",
+					"name": "salt",
+					"nameClean": "table salt",
+					"original": "Salt to taste",
+					"originalName": "Salt to taste",
+					"amount": 4,
+					"unit": "servings",
+					"meta": [
+						"to taste"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						}
+					}
+				},
+				{
+					"id": 15270,
+					"aisle": "Seafood",
+					"image": "shrimp.png",
+					"consistency": "SOLID",
+					"name": "shrimp",
+					"nameClean": "shrimp",
+					"original": "1 cup of dressed shrimp",
+					"originalName": "dressed shrimp",
+					"amount": 1,
+					"unit": "cup",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "cup",
+							"unitLong": "cup"
+						},
+						"metric": {
+							"amount": 236.588,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 11529,
+					"aisle": "Produce",
+					"image": "tomato.png",
+					"consistency": "SOLID",
+					"name": "tomatoes",
+					"nameClean": "tomato",
+					"original": "2 small tomatoes",
+					"originalName": "tomatoes",
+					"amount": 2,
+					"unit": "small",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 2,
+							"unitShort": "small",
+							"unitLong": "smalls"
+						},
+						"metric": {
+							"amount": 2,
+							"unitShort": "small",
+							"unitLong": "smalls"
+						}
+					}
+				},
+				{
+					"id": 4513,
+					"aisle": null,
+					"image": null,
+					"consistency": "SOLID",
+					"name": "vegetable cooking oil",
+					"nameClean": null,
+					"original": "1 cooking spoon of vegetable oil",
+					"originalName": "cooking spoon of vegetable oil",
+					"amount": 1,
+					"unit": "",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				}
+			],
+			"id": 716344,
+			"title": "Kenyan Pilau",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.afrolems.com/2014/08/19/kenyan-pilau-recipe/",
+			"image": "https://spoonacular.com/recipeImages/716344-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Kenyan Pilau is a <b>gluten free and dairy free</b> main course. This recipe makes 4 servings with <b>464 calories</b>, <b>37g of protein</b>, and <b>5g of fat</b> each. For <b>$2.7 per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Head to the store and pick up tomatoes, cumin seed powder, goat meat, and a few other things to make it today. To use up the rice you could follow this main course with the <a href=\"https://spoonacular.com/recipes/rice-pudding-245761\">Rice Pudding</a> as a dessert. A couple people made this recipe, and 39 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular scoreof 78%</b>. This score is pretty good. Try <a href=\"https://spoonacular.com/recipes/kenyan-curried-cabbage-11200\">Kenyan Curried Cabbage</a>, <a href=\"https://spoonacular.com/recipes/kenyan-chicken-curry-21155\">Kenyan Chicken Curry</a>, and <a href=\"https://spoonacular.com/recipes/a-taste-of-africa-kenyan-chicken-curry-101836\">A Taste of Africa - Kenyan Chicken Curry</a> for similar recipes.",
+			"cuisines": [
+
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free",
+				"dairy free"
+			],
+			"occasions": [
+
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Season and boil the meat and set aside.Chop and crush all the spices and set aside.",
+							"ingredients": [
+								{
+									"id": 2035,
+									"name": "spices",
+									"localizedName": "spices",
+									"image": "spices.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 2,
+							"step": "Heat up the oil and sauté the onions till its golden brown.",
+							"ingredients": [
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 3,
+							"step": "Add the meat and allow to brown a little then add the spices, and the rice and the chopped tomatoes.",
+							"ingredients": [
+								{
+									"id": 11529,
+									"name": "tomato",
+									"localizedName": "tomato",
+									"image": "tomato.png"
+								},
+								{
+									"id": 2035,
+									"name": "spices",
+									"localizedName": "spices",
+									"image": "spices.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add the shrimps and add 2 cups of water and reduce the heat and allow to steam.Consistently check it to make sure the water has dried and the rice is soft. Once the rice is soft, increase the heat and stir it to let all the spices be absorbed in the rice.",
+							"ingredients": [
+								{
+									"id": 15270,
+									"name": "shrimp",
+									"localizedName": "shrimp",
+									"image": "shrimp.png"
+								},
+								{
+									"id": 2035,
+									"name": "spices",
+									"localizedName": "spices",
+									"image": "spices.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 5,
+							"step": "Serve with Kachumbari or any other salad.",
+							"ingredients": [
+
+							],
+							"equipment": [
+
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/kenyan-pilau-716344",
+			"usedIngredientCount": 0,
+			"missedIngredientCount": 10,
+			"missedIngredients": [
+				{
+					"id": 1002006,
+					"amount": 4,
+					"unit": "",
+					"unitLong": "",
+					"unitShort": "",
+					"aisle": "Spices and Seasonings",
+					"name": "cardamom pods",
+					"original": "4 cardamom pods",
+					"originalName": "cardamom pods",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/cardamom.jpg"
+				},
+				{
+					"id": 1002010,
+					"amount": 4,
+					"unit": "",
+					"unitLong": "",
+					"unitShort": "",
+					"aisle": "Spices and Seasonings",
+					"name": "cinnamon sticks",
+					"original": "4 cinnamon sticks",
+					"originalName": "cinnamon sticks",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/cinnamon.jpg"
+				},
+				{
+					"id": 2014,
+					"amount": 4,
+					"unit": "teaspoons",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Spices and Seasonings",
+					"name": "cumin seed",
+					"original": "4 teaspoons of cumin seed powder",
+					"originalName": "cumin seed powder",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/ground-cumin.jpg"
+				},
+				{
+					"id": 11215,
+					"amount": 2,
+					"unit": "cloves",
+					"unitLong": "cloves",
+					"unitShort": "cloves",
+					"aisle": "Produce",
+					"name": "garlic",
+					"original": "2 cloves of garlic",
+					"originalName": "garlic",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.png"
+				},
+				{
+					"id": 11216,
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+					"name": "ginger",
+					"original": "1/2 teaspoon of ginger",
+					"originalName": "ginger",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/ginger.png"
+				},
+				{
+					"id": 1065062,
+					"amount": 1,
+					"unit": "pound",
+					"unitLong": "pound",
+					"unitShort": "lb",
+					"aisle": null,
+					"name": "meat",
+					"original": "1 pound of goat meat",
+					"originalName": "goat meat",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+				},
+				{
+					"id": 11282,
+					"amount": 1,
+					"unit": "small",
+					"unitLong": "small",
+					"unitShort": "small",
+					"aisle": "Produce",
+					"name": "onion",
+					"original": "1 small onion",
+					"originalName": "onion",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.png"
+				},
+				{
+					"id": 20444,
+					"amount": 1.5,
+					"unit": "cups",
+					"unitLong": "cups",
+					"unitShort": "cup",
+					"aisle": "Pasta and Rice",
+					"name": "rice",
+					"original": "1.5 cups of Rice ( you can use basmati rice)",
+					"originalName": "Rice ( you can use basmati rice)",
+					"meta": [
+						"canned",
+						"( you can use basmati rice)"
+					],
+					"extendedName": "canned rice",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/uncooked-white-rice.png"
+				},
+				{
+					"id": 15270,
+					"amount": 1,
+					"unit": "cup",
+					"unitLong": "cup",
+					"unitShort": "cup",
+					"aisle": "Seafood",
+					"name": "shrimp",
+					"original": "1 cup of dressed shrimp",
+					"originalName": "dressed shrimp",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/shrimp.png"
+				},
+				{
+					"id": 11529,
+					"amount": 2,
+					"unit": "small",
+					"unitLong": "smalls",
+					"unitShort": "small",
+					"aisle": "Produce",
+					"name": "tomatoes",
+					"original": "2 small tomatoes",
+					"originalName": "tomatoes",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/tomato.png"
+				}
+			],
+			"likes": 0,
+			"usedIngredients": [
+
+			],
+			"unusedIngredients": [
+
+			]
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 4,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 3,
+			"healthScore": 7,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 125.78,
+			"extendedIngredients": [
+				{
+					"id": 18363,
+					"aisle": "Bakery/Bread;Pasta and Rice;Ethnic Foods",
+					"image": "corn-tortillas.png",
+					"consistency": "SOLID",
+					"name": "corn tortillas",
+					"nameClean": "white corn tortilla",
+					"original": "8 smalls corn tortillas",
+					"originalName": "s corn tortillas",
+					"amount": 8,
+					"unit": "small",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 8,
+							"unitShort": "small",
+							"unitLong": "smalls"
+						},
+						"metric": {
+							"amount": 8,
+							"unitShort": "small",
+							"unitLong": "smalls"
+						}
+					}
+				},
+				{
+					"id": 23557,
+					"aisle": "Meat",
+					"image": "fresh-ground-beef.jpg",
+					"consistency": "SOLID",
+					"name": "extra lean ground beef",
+					"nameClean": "95 percent lean ground beef",
+					"original": "1 pound extra lean ground beef",
+					"originalName": "extra lean ground beef",
+					"amount": 1,
+					"unit": "pound",
+					"meta": [
+						"lean"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "lb",
+							"unitLong": "pound"
+						},
+						"metric": {
+							"amount": 453.592,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 11282,
+					"aisle": "Produce",
+					"image": "brown-onion.png",
+					"consistency": "SOLID",
+					"name": "onion",
+					"nameClean": "onion",
+					"original": "1 small onion, diced",
+					"originalName": "onion, diced",
+					"amount": 1,
+					"unit": "small",
+					"meta": [
+						"diced"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "small",
+							"unitLong": "small"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "small",
+							"unitLong": "small"
+						}
+					}
+				},
+				{
+					"id": 11215,
+					"aisle": "Produce",
+					"image": "garlic.png",
+					"consistency": "SOLID",
+					"name": "garlic cloves",
+					"nameClean": "garlic",
+					"original": "3 large garlic cloves, minced",
+					"originalName": "garlic cloves, minced",
+					"amount": 3,
+					"unit": "large",
+					"meta": [
+						"minced"
+					],
+					"measures": {
+						"us": {
+							"amount": 3,
+							"unitShort": "large",
+							"unitLong": "larges"
+						},
+						"metric": {
+							"amount": 3,
+							"unitShort": "large",
+							"unitLong": "larges"
+						}
+					}
+				},
+				{
+					"id": 11265,
+					"aisle": "Produce",
+					"image": "portabello-mushrooms.jpg",
+					"consistency": "SOLID",
+					"name": "portobello mushrooms",
+					"nameClean": "portobello mushrooms",
+					"original": "1 portobello mushrooms, minced",
+					"originalName": "portobello mushrooms, minced",
+					"amount": 1,
+					"unit": "",
+					"meta": [
+						"minced"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 11819,
+					"aisle": "Produce",
+					"image": "red-chili.jpg",
+					"consistency": "SOLID",
+					"name": "chilies",
+					"nameClean": "chili pepper",
+					"original": "4 ounces can diced green chilies [use diced jalapenos if desire more spicy]",
+					"originalName": "diced green chilies [use diced jalapenos if desire more spicy]",
+					"amount": 4,
+					"unit": "ounces",
+					"meta": [
+						"diced",
+						"green",
+						"canned"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "oz",
+							"unitLong": "ounces"
+						},
+						"metric": {
+							"amount": 113.398,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 16018,
+					"aisle": "Canned and Jarred",
+					"image": "black-beans.jpg",
+					"consistency": "SOLID",
+					"name": "canned black beans",
+					"nameClean": "canned black beans",
+					"original": "1 cup canned black beans, washed, drained",
+					"originalName": "canned black beans, washed, drained",
+					"amount": 1,
+					"unit": "cup",
+					"meta": [
+						"washed",
+						"canned",
+						"drained"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "cup",
+							"unitLong": "cup"
+						},
+						"metric": {
+							"amount": 236.588,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 11177,
+					"aisle": "Canned and Jarred",
+					"image": "corn.png",
+					"consistency": "SOLID",
+					"name": "canned corn",
+					"nameClean": "whole kernel corn",
+					"original": "1 cup canned corn, drained",
+					"originalName": "canned corn, drained",
+					"amount": 1,
+					"unit": "cup",
+					"meta": [
+						"canned",
+						"drained"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "cup",
+							"unitLong": "cup"
+						},
+						"metric": {
+							"amount": 236.588,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 2027,
+					"aisle": "Produce;Spices and Seasonings",
+					"image": "oregano.jpg",
+					"consistency": "SOLID",
+					"name": "oregano",
+					"nameClean": "oregano",
+					"original": "1/2 teaspoon oregano",
+					"originalName": "oregano",
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 2009,
+					"aisle": "Spices and Seasonings",
+					"image": "chili-powder.jpg",
+					"consistency": "SOLID",
+					"name": "chili powder",
+					"nameClean": "chili powder",
+					"original": "1/2 teaspoon chili powder",
+					"originalName": "chili powder",
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 1022020,
+					"aisle": "Spices and Seasonings",
+					"image": "garlic-powder.png",
+					"consistency": "SOLID",
+					"name": "garlic powder",
+					"nameClean": "garlic powder",
+					"original": "1/4 teaspoon garlic powder",
+					"originalName": "garlic powder",
+					"amount": 0.25,
+					"unit": "teaspoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 0.25,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 0.25,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 1002014,
+					"aisle": "Spices and Seasonings",
+					"image": "ground-cumin.jpg",
+					"consistency": "SOLID",
+					"name": "cumin",
+					"nameClean": "cumin",
+					"original": "1 1/4 teaspoons cumin",
+					"originalName": "cumin",
+					"amount": 1.25,
+					"unit": "teaspoons",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1.25,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 1.25,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 1002030,
+					"aisle": "Spices and Seasonings",
+					"image": "pepper.jpg",
+					"consistency": "SOLID",
+					"name": "ground pepper",
+					"nameClean": "black pepper",
+					"original": "1/2 teaspoon fresh ground black pepper",
+					"originalName": "fresh ground black pepper",
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"meta": [
+						"fresh",
+						"black"
+					],
+					"measures": {
+						"us": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						},
+						"metric": {
+							"amount": 0.5,
+							"unitShort": "tsps",
+							"unitLong": "teaspoons"
+						}
+					}
+				},
+				{
+					"id": 1082047,
+					"aisle": "Spices and Seasonings",
+					"image": "salt.jpg",
+					"consistency": "SOLID",
+					"name": "kosher salt",
+					"nameClean": "kosher salt",
+					"original": "1 teaspoon kosher salt",
+					"originalName": "kosher salt",
+					"amount": 1,
+					"unit": "teaspoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "tsp",
+							"unitLong": "teaspoon"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "tsp",
+							"unitLong": "teaspoon"
+						}
+					}
+				},
+				{
+					"id": 1209,
+					"aisle": "Cheese",
+					"image": "shredded-mexican-cheese-blend.jpg",
+					"consistency": "SOLID",
+					"name": "reduced-fat shredded mexican cheese blend",
+					"nameClean": "low fat shredded mexican cheese blend",
+					"original": "1/2 cup plus ¾ c reduced fat shredded Mexican blend cheese",
+					"originalName": "reduced fat shredded Mexican blend cheese",
+					"amount": 0.5,
+					"unit": "cup",
+					"meta": [
+						"shredded"
+					],
+					"measures": {
+						"us": {
+							"amount": 0.5,
+							"unitShort": "cups",
+							"unitLong": "cups"
+						},
+						"metric": {
+							"amount": 118.294,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 11252,
+					"aisle": "Produce",
+					"image": "iceberg-lettuce.jpg",
+					"consistency": "SOLID",
+					"name": "iceberg lettuce",
+					"nameClean": "lettuce",
+					"original": "1 cup shredded iceberg lettuce",
+					"originalName": "shredded iceberg lettuce",
+					"amount": 1,
+					"unit": "cup",
+					"meta": [
+						"shredded"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "cup",
+							"unitLong": "cup"
+						},
+						"metric": {
+							"amount": 236.588,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 9037,
+					"aisle": "Produce",
+					"image": "avocado.jpg",
+					"consistency": "SOLID",
+					"name": "avocado",
+					"nameClean": "avocado",
+					"original": "avocado diced",
+					"originalName": "avocado diced",
+					"amount": 1,
+					"unit": "serving",
+					"meta": [
+						"diced"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "serving",
+							"unitLong": "serving"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "serving",
+							"unitLong": "serving"
+						}
+					}
+				}
+			],
+			"id": 663595,
+			"title": "Tomato Free Mexican Lasagna",
+			"readyInMinutes": 45,
+			"servings": 10,
+			"sourceUrl": "https://www.foodista.com/recipe/JJNWNK2P/tomato-free-mexican-lasagna",
+			"image": "https://spoonacular.com/recipeImages/663595-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Tomato Free Mexican Lasagnan is a <b>gluten free</b> main course. This recipe makes 10 servings with <b>180 calories</b>, <b>15g of protein</b>, and <b>6g of fat</b> each. For <b>$1.26 per serving</b>, this recipe <b>covers 12%</b> of your dailyrequirements of vitamins and minerals. Head to the store and pick up chilies [use jalapenos if desire more spicy], portobello mushrooms, iceberg lettuce, and a few other things to make it today. 3 people have tried and liked this recipe. It is a <b>reasonablypriced</b> recipe for fans of Mediterranean food. It is brought to you by Foodista. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 39%</b>. This score is rather bad. Similar recipes include <a href=\"https://spoonacular.com/recipes/mexican-chicken-lasagna-gluten-free-768808\">Mexican Chicken Lasagna – Gluten Free</a>, <a href=\"https://spoonacular.com/recipes/mexican-lasagna-620638\">Mexican Lasagna</a>, and <a href=\"https://spoonacular.com/recipes/mexican-lasagna-567955\">Mexican Lasagna</a>.",
+			"cuisines": [
+				"Mediterranean",
+				"Italian",
+				"European"
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free"
+			],
+			"occasions": [
+
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Preheat oven to 350 degrees. Spray a non-stick skillet with non-stick cooking spray and heat on medium.",
+							"ingredients": [
+								{
+									"id": 4679,
+									"name": "cooking spray",
+									"localizedName": "cooking spray",
+									"image": "cooking-spray.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Add beef, onion and mushrooms and cook until meat is cooked through.",
+							"ingredients": [
+								{
+									"id": 11260,
+									"name": "mushrooms",
+									"localizedName": "mushrooms",
+									"image": "mushrooms.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 3,
+							"step": "Drain if needed, I bought extra lean beef and there was no grease to drain today.",
+							"ingredients": [
+								{
+									"id": 23557,
+									"name": "lean ground beef",
+									"localizedName": "lean ground beef",
+									"image": "fresh-ground-beef.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add garlic and cook another minute.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 5,
+							"step": "Add beans, diced green chilies, corn, oregano, chili powder, garlic powder, cumin, pepper and kosher salt.",
+							"ingredients": [
+								{
+									"id": 1022020,
+									"name": "garlic powder",
+									"localizedName": "garlic powder",
+									"image": "garlic-powder.png"
+								},
+								{
+									"id": 31015,
+									"name": "green chili pepper",
+									"localizedName": "green chili pepper",
+									"image": "chili-peppers-green.jpg"
+								},
+								{
+									"id": 2009,
+									"name": "chili powder",
+									"localizedName": "chili powder",
+									"image": "chili-powder.jpg"
+								},
+								{
+									"id": 1082047,
+									"name": "kosher salt",
+									"localizedName": "kosher salt",
+									"image": "salt.jpg"
+								},
+								{
+									"id": 2027,
+									"name": "oregano",
+									"localizedName": "oregano",
+									"image": "oregano.jpg"
+								},
+								{
+									"id": 1002030,
+									"name": "pepper",
+									"localizedName": "pepper",
+									"image": "pepper.jpg"
+								},
+								{
+									"id": 0,
+									"name": "beans",
+									"localizedName": "beans",
+									"image": "kidney-beans.jpg"
+								},
+								{
+									"id": 1002014,
+									"name": "cumin",
+									"localizedName": "cumin",
+									"image": "ground-cumin.jpg"
+								},
+								{
+									"id": 11168,
+									"name": "corn",
+									"localizedName": "corn",
+									"image": "corn.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 6,
+							"step": "Mix thoroughly.",
+							"ingredients": [
+
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 7,
+							"step": "Spray a 9 x 13 pan with non-stick cooking spray.",
+							"ingredients": [
+								{
+									"id": 4679,
+									"name": "cooking spray",
+									"localizedName": "cooking spray",
+									"image": "cooking-spray.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 8,
+							"step": "Lay half of corn tortillas on bottom of pan.",
+							"ingredients": [
+								{
+									"id": 18363,
+									"name": "corn tortilla",
+									"localizedName": "corn tortilla",
+									"image": "corn-tortillas.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 9,
+							"step": "Add half of the beef mixture and 1/2 c of cheese.",
+							"ingredients": [
+								{
+									"id": 1041009,
+									"name": "cheese",
+									"localizedName": "cheese",
+									"image": "cheddar-cheese.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 10,
+							"step": "Layer remaining corn tortillas and top with beef mixture and 3/4 c cheese.",
+							"ingredients": [
+								{
+									"id": 18363,
+									"name": "corn tortilla",
+									"localizedName": "corn tortilla",
+									"image": "corn-tortillas.png"
+								},
+								{
+									"id": 1041009,
+									"name": "cheese",
+									"localizedName": "cheese",
+									"image": "cheddar-cheese.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 11,
+							"step": "Bake in oven uncovered for 15 minutes.",
+							"ingredients": [
+
+							],
+							"equipment": [
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg"
+								}
+							],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 12,
+							"step": "After cooking sprinkle with diced avocado and lettuce. Slice and serve and add a dollop of sour cream on top of slice.",
+							"ingredients": [
+								{
+									"id": 1056,
+									"name": "sour cream",
+									"localizedName": "sour cream",
+									"image": "sour-cream.jpg"
+								},
+								{
+									"id": 9037,
+									"name": "avocado",
+									"localizedName": "avocado",
+									"image": "avocado.jpg"
+								},
+								{
+									"id": 11252,
+									"name": "lettuce",
+									"localizedName": "lettuce",
+									"image": "iceberg-lettuce.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/tomato-free-mexican-lasagna-663595",
+			"usedIngredientCount": 0,
+			"missedIngredientCount": 15,
+			"missedIngredients": [
+				{
+					"id": 18363,
+					"amount": 8,
+					"unit": "small",
+					"unitLong": "smalls",
+					"unitShort": "small",
+					"aisle": "Bakery/Bread;Pasta and Rice;Ethnic Foods",
+					"name": "corn tortillas",
+					"original": "8 smalls corn tortillas",
+					"originalName": "s corn tortillas",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/corn-tortillas.png"
+				},
+				{
+					"id": 23557,
+					"amount": 1,
+					"unit": "pound",
+					"unitLong": "pound",
+					"unitShort": "lb",
+					"aisle": "Meat",
+					"name": "extra lean ground beef",
+					"original": "1 pound extra lean ground beef",
+					"originalName": "extra lean ground beef",
+					"meta": [
+						"lean"
+					],
+					"extendedName": "lean extra lean ground beef",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/fresh-ground-beef.jpg"
+				},
+				{
+					"id": 11282,
+					"amount": 1,
+					"unit": "small",
+					"unitLong": "small",
+					"unitShort": "small",
+					"aisle": "Produce",
+					"name": "onion",
+					"original": "1 small onion, diced",
+					"originalName": "onion, diced",
+					"meta": [
+						"diced"
+					],
+					"extendedName": "diced onion",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.png"
+				},
+				{
+					"id": 11215,
+					"amount": 3,
+					"unit": "large",
+					"unitLong": "larges",
+					"unitShort": "large",
+					"aisle": "Produce",
+					"name": "garlic cloves",
+					"original": "3 large garlic cloves, minced",
+					"originalName": "garlic cloves, minced",
+					"meta": [
+						"minced"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.png"
+				},
+				{
+					"id": 11265,
+					"amount": 1,
+					"unit": "",
+					"unitLong": "",
+					"unitShort": "",
+					"aisle": "Produce",
+					"name": "portobello mushrooms",
+					"original": "1 portobello mushrooms, minced",
+					"originalName": "portobello mushrooms, minced",
+					"meta": [
+						"minced"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/portabello-mushrooms.jpg"
+				},
+				{
+					"id": 11819,
+					"amount": 4,
+					"unit": "ounces",
+					"unitLong": "ounces",
+					"unitShort": "oz",
+					"aisle": "Produce",
+					"name": "chilies",
+					"original": "4 ounces can diced green chilies [use diced jalapenos if desire more spicy]",
+					"originalName": "diced green chilies [use diced jalapenos if desire more spicy]",
+					"meta": [
+						"diced",
+						"green",
+						"canned"
+					],
+					"extendedName": "canned green diced chilies",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/red-chili.jpg"
+				},
+				{
+					"id": 16018,
+					"amount": 1,
+					"unit": "cup",
+					"unitLong": "cup",
+					"unitShort": "cup",
+					"aisle": "Canned and Jarred",
+					"name": "canned black beans",
+					"original": "1 cup canned black beans, washed, drained",
+					"originalName": "canned black beans, washed, drained",
+					"meta": [
+						"washed",
+						"canned",
+						"drained"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/black-beans.jpg"
+				},
+				{
+					"id": 11177,
+					"amount": 1,
+					"unit": "cup",
+					"unitLong": "cup",
+					"unitShort": "cup",
+					"aisle": "Canned and Jarred",
+					"name": "canned corn",
+					"original": "1 cup canned corn, drained",
+					"originalName": "canned corn, drained",
+					"meta": [
+						"canned",
+						"drained"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/corn.png"
+				},
+				{
+					"id": 2027,
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Produce;Spices and Seasonings",
+					"name": "oregano",
+					"original": "1/2 teaspoon oregano",
+					"originalName": "oregano",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/oregano.jpg"
+				},
+				{
+					"id": 2009,
+					"amount": 0.5,
+					"unit": "teaspoon",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Spices and Seasonings",
+					"name": "chili powder",
+					"original": "1/2 teaspoon chili powder",
+					"originalName": "chili powder",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/chili-powder.jpg"
+				},
+				{
+					"id": 1022020,
+					"amount": 0.25,
+					"unit": "teaspoon",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Spices and Seasonings",
+					"name": "garlic powder",
+					"original": "1/4 teaspoon garlic powder",
+					"originalName": "garlic powder",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/garlic-powder.png"
+				},
+				{
+					"id": 1002014,
+					"amount": 1.25,
+					"unit": "teaspoons",
+					"unitLong": "teaspoons",
+					"unitShort": "tsp",
+					"aisle": "Spices and Seasonings",
+					"name": "cumin",
+					"original": "1 1/4 teaspoons cumin",
+					"originalName": "cumin",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/ground-cumin.jpg"
+				},
+				{
+					"id": 1209,
+					"amount": 0.5,
+					"unit": "cup",
+					"unitLong": "cups",
+					"unitShort": "cup",
+					"aisle": "Cheese",
+					"name": "reduced-fat shredded mexican cheese blend",
+					"original": "1/2 cup plus ¾ c reduced fat shredded Mexican blend cheese",
+					"originalName": "reduced fat shredded Mexican blend cheese",
+					"meta": [
+						"shredded"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/shredded-mexican-cheese-blend.jpg"
+				},
+				{
+					"id": 11252,
+					"amount": 1,
+					"unit": "cup",
+					"unitLong": "cup",
+					"unitShort": "cup",
+					"aisle": "Produce",
+					"name": "iceberg lettuce",
+					"original": "1 cup shredded iceberg lettuce",
+					"originalName": "shredded iceberg lettuce",
+					"meta": [
+						"shredded"
+					],
+					"extendedName": "shredded iceberg lettuce",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/iceberg-lettuce.jpg"
+				},
+				{
+					"id": 9037,
+					"amount": 1,
+					"unit": "serving",
+					"unitLong": "serving",
+					"unitShort": "serving",
+					"aisle": "Produce",
+					"name": "avocado",
+					"original": "avocado diced",
+					"originalName": "avocado diced",
+					"meta": [
+						"diced"
+					],
+					"extendedName": "diced avocado",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/avocado.jpg"
+				}
+			],
+			"likes": 0,
+			"usedIngredients": [
+
+			],
+			"unusedIngredients": [
+
+			]
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 18,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 103,
+			"healthScore": 6,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 241.72,
+			"extendedIngredients": [
+				{
+					"id": 10123,
+					"aisle": "Meat",
+					"image": "raw-bacon.png",
+					"consistency": "SOLID",
+					"name": "bacon",
+					"nameClean": "applewood smoked bacon",
+					"original": "8 slices of thick cut bacon",
+					"originalName": "thick cut bacon",
+					"amount": 8,
+					"unit": "slices",
+					"meta": [
+						"thick cut"
+					],
+					"measures": {
+						"us": {
+							"amount": 8,
+							"unitShort": "slice",
+							"unitLong": "slices"
+						},
+						"metric": {
+							"amount": 8,
+							"unitShort": "slice",
+							"unitLong": "slices"
+						}
+					}
+				},
+				{
+					"id": 1017,
+					"aisle": "Cheese",
+					"image": "cream-cheese.jpg",
+					"consistency": "SOLID",
+					"name": "cream cheese",
+					"nameClean": "cream cheese",
+					"original": "2 oz. cream cheese",
+					"originalName": "cream cheese",
+					"amount": 2,
+					"unit": "oz",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 2,
+							"unitShort": "oz",
+							"unitLong": "ounces"
+						},
+						"metric": {
+							"amount": 56.699,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 1123,
+					"aisle": "Milk, Eggs, Other Dairy",
+					"image": "egg.png",
+					"consistency": "SOLID",
+					"name": "eggs",
+					"nameClean": "egg",
+					"original": "4 eggs",
+					"originalName": "eggs",
+					"amount": 4,
+					"unit": "",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 11297,
+					"aisle": "Produce;Spices and Seasonings",
+					"image": "parsley.jpg",
+					"consistency": "SOLID",
+					"name": "fresh parsley",
+					"nameClean": "parsley",
+					"original": "fresh parsley for garnish",
+					"originalName": "fresh parsley for garnish",
+					"amount": 4,
+					"unit": "servings",
+					"meta": [
+						"fresh",
+						"for garnish"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						}
+					}
+				},
+				{
+					"id": 1159,
+					"aisle": "Cheese",
+					"image": "goat-cheese.jpg",
+					"consistency": "SOLID",
+					"name": "goat cheese",
+					"nameClean": "goat cheese",
+					"original": "4 oz. goat cheese",
+					"originalName": "goat cheese",
+					"amount": 4,
+					"unit": "oz",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "oz",
+							"unitLong": "ounces"
+						},
+						"metric": {
+							"amount": 113.398,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 4053,
+					"aisle": "Oil, Vinegar, Salad Dressing",
+					"image": "olive-oil.jpg",
+					"consistency": "LIQUID",
+					"name": "olive oil",
+					"nameClean": "olive oil",
+					"original": "1 tablespoon olive oil",
+					"originalName": "olive oil",
+					"amount": 1,
+					"unit": "tablespoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						}
+					}
+				},
+				{
+					"id": 10035137,
+					"aisle": "Pasta and Rice;Ethnic Foods;Baking",
+					"image": "cornmeal.png",
+					"consistency": "SOLID",
+					"name": "polenta",
+					"nameClean": "polenta",
+					"original": "1 cup polenta",
+					"originalName": "polenta",
+					"amount": 1,
+					"unit": "cup",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "cup",
+							"unitLong": "cup"
+						},
+						"metric": {
+							"amount": 236.588,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 1102047,
+					"aisle": "Spices and Seasonings",
+					"image": "salt-and-pepper.jpg",
+					"consistency": "SOLID",
+					"name": "Salt & Pepper",
+					"nameClean": "salt and pepper",
+					"original": "salt & black pepper",
+					"originalName": "salt & black pepper",
+					"amount": 4,
+					"unit": "servings",
+					"meta": [
+						"black"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						}
+					}
+				}
+			],
+			"id": 640676,
+			"title": "Creamy Polenta with Egg, Arrabiata & Bacon",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/WPBY4PQQ/creamy-polenta-with-egg-arrabiata-bacon",
+			"image": "https://spoonacular.com/recipeImages/640676-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "You can never have too many main course recipes, so give Creamy Polenta with Egg, Arrabiata & Bacon a try. This recipe makes 4 servings with <b>550 calories</b>, <b>21g of protein</b>, and <b>36g of fat</b> each. For <b>$2.42 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 103 foodies and cooks. A mixture of bacon, eggs, goat cheese, and a handful of other ingredients are all it takes to make this recipe so flavorful. To use up the eggs you could follow this main course with the <a href=\"https://spoonacular.com/recipes/rose-levy-beranbaums-chocolate-tomato-cake-with-mystery-ganache-27408\">Rose Levy Beranbaum's Chocolate Tomato Cake with Mystery Ganache</a> as a dessert. It is a goodoption if you're following a <b>gluten free and fodmap friendly</b> diet. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 58%</b>. This score is good.Similar recipes include <a href=\"https://spoonacular.com/recipes/creamy-polenta-with-bacon-and-sage-147819\">Creamy Polenta with Bacon and Sage</a>, <a href=\"https://spoonacular.com/recipes/creamy-polenta-with-bacon-and-cranberries-310561\">Creamy Polenta with Bacon and Cranberries</a>, and <a href=\"https://spoonacular.com/recipes/creamy-breakfast-polenta-with-asiago-thyme-bacon-and-poached-eggs-502502\">Creamy Breakfast Polenta with Asiago, Thyme, Bacon, and Poached Eggs</a>.",
+			"cuisines": [
+
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free"
+			],
+			"occasions": [
+
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Preheat the oven to 425 degrees F.Bring 4 cups of water to a boil in a medium saucepan. Slowly whisk in the polenta, whisking continuously until there are no lumps and it begins to thicken slightly. Reduce the heat to medium-low and allow the polenta to simmer for 30 minutes, stirring occasionally to keep it from overcooking.When the polenta has thickened and become tender, stir in the goat cheese and cream cheese. Stir until the cheese are melted and fully incorporated into the polenta.",
+							"ingredients": [
+								{
+									"id": 1017,
+									"name": "cream cheese",
+									"localizedName": "cream cheese",
+									"image": "cream-cheese.jpg"
+								},
+								{
+									"id": 1159,
+									"name": "goat cheese",
+									"localizedName": "goat cheese",
+									"image": "goat-cheese.jpg"
+								},
+								{
+									"id": 10035137,
+									"name": "polenta",
+									"localizedName": "polenta",
+									"image": "cornmeal.png"
+								},
+								{
+									"id": 1041009,
+									"name": "cheese",
+									"localizedName": "cheese",
+									"image": "cheddar-cheese.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404661,
+									"name": "whisk",
+									"localizedName": "whisk",
+									"image": "whisk.png"
+								},
+								{
+									"id": 404669,
+									"name": "sauce pan",
+									"localizedName": "sauce pan",
+									"image": "sauce-pan.jpg"
+								},
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg",
+									"temperature": {
+										"number": 425,
+										"unit": "Fahrenheit"
+									}
+								}
+							],
+							"length": {
+								"number": 30,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 2,
+							"step": "Add salt and pepper to taste.Meanwhile, place the bacon on a parchment-lined baking sheet and place in the preheated oven on the middle rack. Roast for 15-18 minutes or until the bacon is golden and crisp. When it is done, remove it from the oven and place the bacon strips on a paper towel-lined plate. Set aside.In a small saucepan or in the microwave, heat the marinara sauce until just simmering. Keep warm until you are ready to assemble your bowls.In a large non-stick skillet, heat the 1 T olive oil over medium heat. If your pan is large enough, add the four eggs and allow them to cook until the whites are opaque but still a bit runny on the top. Put a lid over the pan and turn off the heat. Allow the eggs to continue cooking under the lid until the whites are set but the yolk is still runny. If your pan is small, fry the eggs in batches.To assemble the bowls, spoon even amounts of polenta in each bowl. Top with a spoonful of the arrabiata, 1 egg and 2 slices of bacon.",
+							"ingredients": [
+								{
+									"id": 1102047,
+									"name": "salt and pepper",
+									"localizedName": "salt and pepper",
+									"image": "salt-and-pepper.jpg"
+								},
+								{
+									"id": 10111549,
+									"name": "marinara sauce",
+									"localizedName": "marinara sauce",
+									"image": "tomato-sauce-or-pasta-sauce.jpg"
+								},
+								{
+									"id": 10123,
+									"name": "bacon",
+									"localizedName": "bacon",
+									"image": "raw-bacon.png"
+								},
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 10035137,
+									"name": "polenta",
+									"localizedName": "polenta",
+									"image": "cornmeal.png"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								},
+								{
+									"id": 1125,
+									"name": "egg yolk",
+									"localizedName": "egg yolk",
+									"image": "egg-yolk.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404727,
+									"name": "baking sheet",
+									"localizedName": "baking sheet",
+									"image": "baking-sheet.jpg"
+								},
+								{
+									"id": 405895,
+									"name": "paper towels",
+									"localizedName": "paper towels",
+									"image": "paper-towels.jpg"
+								},
+								{
+									"id": 404762,
+									"name": "microwave",
+									"localizedName": "microwave",
+									"image": "microwave.jpg"
+								},
+								{
+									"id": 404669,
+									"name": "sauce pan",
+									"localizedName": "sauce pan",
+									"image": "sauce-pan.jpg"
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								},
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg"
+								}
+							],
+							"length": {
+								"number": 18,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Garnish with chopped thyme or parsley leaves.",
+							"ingredients": [
+								{
+									"id": 11297,
+									"name": "parsley",
+									"localizedName": "parsley",
+									"image": "parsley.jpg"
+								},
+								{
+									"id": 2049,
+									"name": "thyme",
+									"localizedName": "thyme",
+									"image": "thyme.jpg"
+								}
+							],
+							"equipment": [
+
+							]
+						},
+						{
+							"number": 4,
+							"step": "Serve immediately.",
+							"ingredients": [
+
+							],
+							"equipment": [
+
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/creamy-polenta-with-egg-arrabiata-bacon-640676",
+			"usedIngredientCount": 0,
+			"missedIngredientCount": 6,
+			"missedIngredients": [
+				{
+					"id": 10123,
+					"amount": 8,
+					"unit": "slices",
+					"unitLong": "slices",
+					"unitShort": "slice",
+					"aisle": "Meat",
+					"name": "bacon",
+					"original": "8 slices of thick cut bacon",
+					"originalName": "thick cut bacon",
+					"meta": [
+						"thick cut"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/raw-bacon.png"
+				},
+				{
+					"id": 1017,
+					"amount": 2,
+					"unit": "oz",
+					"unitLong": "ounces",
+					"unitShort": "oz",
+					"aisle": "Cheese",
+					"name": "cream cheese",
+					"original": "2 oz. cream cheese",
+					"originalName": "cream cheese",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/cream-cheese.jpg"
+				},
+				{
+					"id": 1123,
+					"amount": 4,
+					"unit": "",
+					"unitLong": "",
+					"unitShort": "",
+					"aisle": "Milk, Eggs, Other Dairy",
+					"name": "eggs",
+					"original": "4 eggs",
+					"originalName": "eggs",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png"
+				},
+				{
+					"id": 11297,
+					"amount": 4,
+					"unit": "servings",
+					"unitLong": "servings",
+					"unitShort": "servings",
+					"aisle": "Produce;Spices and Seasonings",
+					"name": "fresh parsley",
+					"original": "fresh parsley for garnish",
+					"originalName": "fresh parsley for garnish",
+					"meta": [
+						"fresh",
+						"for garnish"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+				},
+				{
+					"id": 1159,
+					"amount": 4,
+					"unit": "oz",
+					"unitLong": "ounces",
+					"unitShort": "oz",
+					"aisle": "Cheese",
+					"name": "goat cheese",
+					"original": "4 oz. goat cheese",
+					"originalName": "goat cheese",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/goat-cheese.jpg"
+				},
+				{
+					"id": 10035137,
+					"amount": 1,
+					"unit": "cup",
+					"unitLong": "cup",
+					"unitShort": "cup",
+					"aisle": "Pasta and Rice;Ethnic Foods;Baking",
+					"name": "polenta",
+					"original": "1 cup polenta",
+					"originalName": "polenta",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/cornmeal.png"
+				}
+			],
+			"likes": 0,
+			"usedIngredients": [
+
+			],
+			"unusedIngredients": [
+
+			]
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 16,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 2,
+			"healthScore": 100,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 142.74,
+			"extendedIngredients": [
+				{
+					"id": 10211821,
+					"aisle": "Produce",
+					"image": "bell-pepper-orange.png",
+					"consistency": "SOLID",
+					"name": "bell pepper",
+					"nameClean": "bell pepper",
+					"original": "1 Dried hot pepper (opt)",
+					"originalName": "Dried hot pepper (opt)",
+					"amount": 1,
+					"unit": "",
+					"meta": [
+						"dried",
+						"hot",
+						"(opt)"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "",
+							"unitLong": ""
+						}
+					}
+				},
+				{
+					"id": 16057,
+					"aisle": "Pasta and Rice;Canned and Jarred;Ethnic Foods",
+					"image": "chickpeas.png",
+					"consistency": "SOLID",
+					"name": "chickpeas",
+					"nameClean": "chickpeas",
+					"original": "2 cups Cooked chickpeas, drained",
+					"originalName": "Cooked chickpeas, drained",
+					"amount": 2,
+					"unit": "cups",
+					"meta": [
+						"cooked",
+						"drained"
+					],
+					"measures": {
+						"us": {
+							"amount": 2,
+							"unitShort": "cups",
+							"unitLong": "cups"
+						},
+						"metric": {
+							"amount": 473.176,
+							"unitShort": "ml",
+							"unitLong": "milliliters"
+						}
+					}
+				},
+				{
+					"id": 11215,
+					"aisle": "Produce",
+					"image": "garlic.png",
+					"consistency": "SOLID",
+					"name": "garlic",
+					"nameClean": "garlic",
+					"original": "1 tablespoon Garlic, minced",
+					"originalName": "Garlic, minced",
+					"amount": 1,
+					"unit": "tablespoon",
+					"meta": [
+						"minced"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						}
+					}
+				},
+				{
+					"id": 11233,
+					"aisle": "Produce",
+					"image": "kale.jpg",
+					"consistency": "SOLID",
+					"name": "kale",
+					"nameClean": "kale",
+					"original": "1 pound Kale or other greens, washed and trimmed",
+					"originalName": "Kale or other greens, washed and trimmed",
+					"amount": 1,
+					"unit": "pound",
+					"meta": [
+						"washed and trimmed"
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "lb",
+							"unitLong": "pound"
+						},
+						"metric": {
+							"amount": 453.592,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				},
+				{
+					"id": 4053,
+					"aisle": "Oil, Vinegar, Salad Dressing",
+					"image": "olive-oil.jpg",
+					"consistency": "LIQUID",
+					"name": "olive oil",
+					"nameClean": "olive oil",
+					"original": "1 tablespoon Olive oil",
+					"originalName": "Olive oil",
+					"amount": 1,
+					"unit": "tablespoon",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						},
+						"metric": {
+							"amount": 1,
+							"unitShort": "Tbsp",
+							"unitLong": "Tbsp"
+						}
+					}
+				},
+				{
+					"id": 11297,
+					"aisle": "Produce;Spices and Seasonings",
+					"image": "parsley.jpg",
+					"consistency": "SOLID",
+					"name": "parsley",
+					"nameClean": "parsley",
+					"original": "4 tablespoons Parsley, minced",
+					"originalName": "Parsley, minced",
+					"amount": 4,
+					"unit": "tablespoons",
+					"meta": [
+						"minced"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "Tbsps",
+							"unitLong": "Tbsps"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "Tbsps",
+							"unitLong": "Tbsps"
+						}
+					}
+				},
+				{
+					"id": 1102047,
+					"aisle": "Spices and Seasonings",
+					"image": "salt-and-pepper.jpg",
+					"consistency": "SOLID",
+					"name": "salt and pepper",
+					"nameClean": "salt and pepper",
+					"original": "Salt and pepper to taste",
+					"originalName": "Salt and pepper to taste",
+					"amount": 4,
+					"unit": "servings",
+					"meta": [
+						"to taste"
+					],
+					"measures": {
+						"us": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						},
+						"metric": {
+							"amount": 4,
+							"unitShort": "servings",
+							"unitLong": "servings"
+						}
+					}
+				},
+				{
+					"id": 11520420,
+					"aisle": "Pasta and Rice",
+					"image": "ziti.jpg",
+					"consistency": "SOLID",
+					"name": "ziti",
+					"nameClean": "ziti",
+					"original": "1 pound Ziti, elbow macaroni, twists or bowties",
+					"originalName": "Ziti, elbow macaroni, twists or bowties",
+					"amount": 1,
+					"unit": "pound",
+					"meta": [
+
+					],
+					"measures": {
+						"us": {
+							"amount": 1,
+							"unitShort": "lb",
+							"unitLong": "pound"
+						},
+						"metric": {
+							"amount": 453.592,
+							"unitShort": "g",
+							"unitLong": "grams"
+						}
+					}
+				}
+			],
+			"id": 654905,
+			"title": "Pasta With Chickpeas and Kale",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/4BTWKPRC/pasta-with-chickpeas-and-kale",
+			"image": "https://spoonacular.com/recipeImages/654905-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Pasta With Chickpeas and Kale might be just the main course you are searching for. One serving contains <b>655 calories</b>, <b>27g of protein</b>, and <b>9g of fat</b>. For <b>$1.43 per serving</b>, this recipe <b>covers 43%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista has 1 fans. It is a good option if you're following a <b>dairy free</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. A mixture of bell pepper, ziti, kale, and ahandful of other ingredients are all it takes to make this recipe so flavorful. To use up the salt and pepper you could follow this main course with the <a href=\"https://spoonacular.com/recipes/dr-pepper-cake-with-flour-cooked-frosting-539165\">Dr. Pepper Cake with Flour Cooked Frosting</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is spectacular. Similar recipes include <a href=\"https://spoonacular.com/recipes/curried-chickpeas-and-kale-158454\">Curried Chickpeas and Kale</a>, <a href=\"https://spoonacular.com/recipes/creamed-kale-with-chickpeas-608963\">Creamed kale with chickpeas</a>, and <a href=\"https://spoonacular.com/recipes/sauted-chickpeas-with-ham-and-kale-15237\">Sautéed Chickpeas with Ham and Kale</a>.",
+			"cuisines": [
+
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"dairy free"
+			],
+			"occasions": [
+
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Set a large pot of water to boil, and add salt.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Cut the kale stems into 2-3 inch pieces; chop the leaves coarsely and set aside. Boil the stems until they are nearly tender; then, add the greens. Cook until kale is quite tender but stillbright green. Scoop it out with a slotted spoon, place in a bowl of ice water, and keep pot boiling. When the kale cools, squeeze out excess water, gather it into a mass and chop rather finely. Meanwhile, place olive oil in a large skillet over veWarm the garlic mixture over medium heat, and add the cooked pasta, the chickpeas and the chopped kale.Toss well, taste for seasoning, garnish with parsley and serve immediately.",
+							"ingredients": [
+								{
+									"id": 20421,
+									"name": "cooked pasta",
+									"localizedName": "cooked pasta",
+									"image": "fusilli.jpg"
+								},
+								{
+									"id": 16057,
+									"name": "chickpeas",
+									"localizedName": "chickpeas",
+									"image": "chickpeas.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 1042027,
+									"name": "seasoning",
+									"localizedName": "seasoning",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 11297,
+									"name": "parsley",
+									"localizedName": "parsley",
+									"image": "parsley.jpg"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 21052,
+									"name": "greens",
+									"localizedName": "greens",
+									"image": "mixed-greens-or-mesclun.jpg"
+								},
+								{
+									"id": 11233,
+									"name": "kale",
+									"localizedName": "kale",
+									"image": "kale.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404636,
+									"name": "slotted spoon",
+									"localizedName": "slotted spoon",
+									"image": "slotted-spoon.jpg"
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								},
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/pasta-with-chickpeas-and-kale-654905",
+			"usedIngredientCount": 0,
+			"missedIngredientCount": 6,
+			"missedIngredients": [
+				{
+					"id": 10211821,
+					"amount": 1,
+					"unit": "",
+					"unitLong": "",
+					"unitShort": "",
+					"aisle": "Produce",
+					"name": "bell pepper",
+					"original": "1 Dried hot pepper (opt)",
+					"originalName": "Dried hot pepper (opt)",
+					"meta": [
+						"dried",
+						"hot",
+						"(opt)"
+					],
+					"extendedName": "dried bell pepper",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/bell-pepper-orange.png"
+				},
+				{
+					"id": 16057,
+					"amount": 2,
+					"unit": "cups",
+					"unitLong": "cups",
+					"unitShort": "cup",
+					"aisle": "Pasta and Rice;Canned and Jarred;Ethnic Foods",
+					"name": "chickpeas",
+					"original": "2 cups Cooked chickpeas, drained",
+					"originalName": "Cooked chickpeas, drained",
+					"meta": [
+						"cooked",
+						"drained"
+					],
+					"extendedName": "cooked chickpeas",
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/chickpeas.png"
+				},
+				{
+					"id": 11215,
+					"amount": 1,
+					"unit": "tablespoon",
+					"unitLong": "tablespoon",
+					"unitShort": "Tbsp",
+					"aisle": "Produce",
+					"name": "garlic",
+					"original": "1 tablespoon Garlic, minced",
+					"originalName": "Garlic, minced",
+					"meta": [
+						"minced"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.png"
+				},
+				{
+					"id": 11233,
+					"amount": 1,
+					"unit": "pound",
+					"unitLong": "pound",
+					"unitShort": "lb",
+					"aisle": "Produce",
+					"name": "kale",
+					"original": "1 pound Kale or other greens, washed and trimmed",
+					"originalName": "Kale or other greens, washed and trimmed",
+					"meta": [
+						"washed and trimmed"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/kale.jpg"
+				},
+				{
+					"id": 11297,
+					"amount": 4,
+					"unit": "tablespoons",
+					"unitLong": "tablespoons",
+					"unitShort": "Tbsp",
+					"aisle": "Produce;Spices and Seasonings",
+					"name": "parsley",
+					"original": "4 tablespoons Parsley, minced",
+					"originalName": "Parsley, minced",
+					"meta": [
+						"minced"
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+				},
+				{
+					"id": 11520420,
+					"amount": 1,
+					"unit": "pound",
+					"unitLong": "pound",
+					"unitShort": "lb",
+					"aisle": "Pasta and Rice",
+					"name": "ziti",
+					"original": "1 pound Ziti, elbow macaroni, twists or bowties",
+					"originalName": "Ziti, elbow macaroni, twists or bowties",
+					"meta": [
+
+					],
+					"image": "https://spoonacular.com/cdn/ingredients_100x100/ziti.jpg"
+				}
+			],
+			"likes": 0,
+			"usedIngredients": [
+
+			],
+			"unusedIngredients": [
+
+			]
+		}
+	],
+	"totalResults": 1494
+}

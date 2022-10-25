@@ -1,18 +1,39 @@
 // NPM Modules
 // @ts-ignore
-import { Select, Confirm } from "enquirer";
-import MigrosAPI from "migros-api-wrapper"
+import { Select, Confirm, MultiSelect } from "enquirer";
 
 // Prompts
-import { createProductSearchPrompt, createProductSelectPrompt } from "./productPrompt";
-import { getBrowserLoginPage, getBrowserSession, getPageCookies } from "../utils/puppeteer";
-import { ILoginCookies } from "migros-api-wrapper/dist/api/interfaces/cookies";
+import { choices } from "./choices";
+import { migrosAccountLogin, migrosAccountLoginCheck } from "../actions/migrosAccount";
+import { createMigrosAccountDetailsPrompt } from "./migros/migrosAccountDetailsPrompt";
+import { cumulusAccountLogin, cumulusAccountLoginCheck } from "../actions/cumulusAccount";
+import { createCumulusAccountDetailsPrompt } from "./migros/cumulusAccountDetailsPrompt";
+import { bringAccountLogin, bringAccountLoginCheck } from "../actions/bringAccount";
+import { createBringAccountDetailsPrompt } from "./bring/bringAccountDetailsPrompt";
+import { spoonacularAccountLogin, spoonacularAccountLoginCheck } from "../actions/spoonacularAccount";
+import { createSpoonacularAccountDetailsPrompt } from "./spoonacular/spoonacularAccountDetailsPrompt";
+import { createMigrosProductDetailsPrompt } from "./migros/productProductDetailsPrompt";
+import { iaqhProcessLoginCheck } from "../actions/iaqhProcess";
+import { createIaqhProcessPrompt } from "./iaqh/iaqhProcessPrompt";
 
-export function createSelectPrompt(name: string, message: string, choices: string[] | Record<string, any>): Promise<string> {
+export function createSelectPrompt(name: string, message: string, choices: any[]): Promise<any> {
 	const prompt = new Select({
 		name: name,
 		message: message,
 		choices: choices
+	});
+	return prompt.run();
+}
+
+export function createMultiSelectPrompt(name: string, message: string, limit: number, choices: any[]): Promise<any> {
+	const prompt = new MultiSelect({
+		name: name,
+		message: message,
+		limit: limit,
+		choices: choices,
+		result(names: any) {
+			return this.map(names);
+		}
 	});
 	return prompt.run();
 }
@@ -25,7 +46,7 @@ export function createConfirmPrompt(name: string, message: string): Promise<stri
 	return prompt.run();
 }
 
-let loginCookies: ILoginCookies | null = null
+
 
 export const createStartPrompt = async (exit: boolean = false): Promise<any> => {
 
@@ -33,85 +54,98 @@ export const createStartPrompt = async (exit: boolean = false): Promise<any> => 
 		return;
 	}
 
-	let choices = []
-
-	if (!loginCookies) {
-		choices.push('Login to your Migros Account')
-	} else {
-		choices.push('Migros: Get security options')
+	if (!migrosAccountLoginCheck()) {
+		await migrosAccountLogin()
 	}
 
-	let openChoices = [
-		'Search for a Product',
-	]
+	if (!cumulusAccountLoginCheck()) {
+		await cumulusAccountLogin()
+	}
 
-	choices = [...choices, ...openChoices]
+	if (!bringAccountLoginCheck()) {
+		await bringAccountLogin()
+	}
 
-	choices.push('Exit')
+	if (!spoonacularAccountLoginCheck()) {
+		await spoonacularAccountLogin()
+	}
 
-	let startResponse: string = await createSelectPrompt(
+	let startResponse: Record<string, any> = await createSelectPrompt(
 		'start',
 		'Select an Action',
-		choices
+		[...choices.start, ...choices["*"]].filter(value => {
+			if (value.auth === 'login_cookies' && !migrosAccountLoginCheck()) {
+				return;
+			} else if (value.anti_auth && value.anti_auth === 'login_cookies' && migrosAccountLoginCheck()) {
+				return;
+			} else if (value.auth === 'cumulus_cookies' && !cumulusAccountLoginCheck()) {
+				return;
+			} else if (value.anti_auth && value.anti_auth === 'cumulus_cookies' && cumulusAccountLoginCheck()) {
+				return;
+			} else if (value.auth === 'bring_login' && !bringAccountLoginCheck()) {
+				return;
+			} else if (value.anti_auth && value.anti_auth === 'bring_login' && bringAccountLoginCheck()) {
+				return;
+			} else if (value.auth === 'spoonacular_login' && !spoonacularAccountLoginCheck()) {
+				return;
+			} else if (value.anti_auth && value.anti_auth === 'spoonacular_login' && spoonacularAccountLoginCheck()) {
+				return;
+			} else if (value.auth === 'login_complete' && !iaqhProcessLoginCheck()) {
+				return;
+			} else if (value.anti_auth && value.anti_auth === 'login_complete' && iaqhProcessLoginCheck()) {
+				return;
+			}
+			return value;
+		}).map(value => {
+			return {
+				message: value.message,
+				value: value
+			}
+		})
 	)
 
-	switch (startResponse) {
-		case 'Login to your Migros Account':
-			const browser = await getBrowserSession()
-			const currentPage = await getBrowserLoginPage(browser)
-			const loginResponse = await createConfirmPrompt('confirm-login', 'Did you login to Migros?')
+	let response = null
 
-			if (!loginResponse) {
-				exit = true
-				break;
-			}
-
-			const currentCookies = await getPageCookies(currentPage)
-			await browser.close()
-
-			const cookiesObject = <Record<string, string>>currentCookies.reduce((obj, item) => Object.assign(obj, { [item.name]: item.value }), {});
-
-			const loginCookiesTemp = {
-				__VCAP_ID__: cookiesObject["__VCAP_ID__"],
-				MDID: cookiesObject["MDID"],
-				JSESSIONID: cookiesObject["JSESSIONID"],
-				CSRF: cookiesObject["CSRF"],
-				MLRM: cookiesObject["MLRM"],
-				MTID: cookiesObject["MTID"],
-				hl: cookiesObject["hl"],
-				TS012f1684: cookiesObject["TS012f1684"]
-			}
-			const securityOptionsCheck = await MigrosAPI.security.options.get(loginCookiesTemp)
-
-			if (securityOptionsCheck) {
-				loginCookies = loginCookiesTemp
-			}
-			console.log(securityOptionsCheck)
+	switch (startResponse.name) {
+		case 'iaqh_details':
+			response = await createIaqhProcessPrompt()
 			break;
-		case 'Migros: Get security options':
-			if (!loginCookies) {
-				throw Error('Login Cookies are undefined!')
-			}
-			const securityOptions = await MigrosAPI.security.options.get(loginCookies)
-			console.log(securityOptions)
+		case 'migros_account_login':
+			response = await migrosAccountLogin()
 			break;
-		case 'Search for a Product':
-			const productSearchString = await createProductSearchPrompt()
-			const responseProductSearch = await MigrosAPI.productSearch.v4.search({
-				query: productSearchString
-			})
-			const responseProductCards = await MigrosAPI.productDisplay.v1.productCards.get({
-				uids: responseProductSearch.productIds
-			})
-			const productUID = await createProductSelectPrompt(responseProductCards)
-			const productDetails = await MigrosAPI.productDisplay.v1.productDetail.get({
-				uids: productUID
-			})
-			console.log(productDetails)
+		case 'migros_account_details':
+			response = await createMigrosAccountDetailsPrompt()
+			break;
+		case 'cumulus_account_login':
+			response = await cumulusAccountLogin()
+			break;
+		case 'cumulus_account_details':
+			response = await createCumulusAccountDetailsPrompt()
+			break;
+		case 'bring_account_login':
+			response = await bringAccountLogin()
+			break;
+		case 'bring_account_details':
+			response = await createBringAccountDetailsPrompt()
+			break;
+		case 'spoonacular_account_login':
+			response = await spoonacularAccountLogin()
+			break;
+		case 'spoonacular_account_details':
+			response = await createSpoonacularAccountDetailsPrompt()
+			break;
+		case 'product_details':
+			response = await createMigrosProductDetailsPrompt()
 			break;
 		default:
 			exit = true
 			break;
+	}
+
+	if (response?.name === "*-exit") {
+		exit = true;
+	} else if (response) {
+		console.log(response)
 	}
 
 	return await createStartPrompt(exit)

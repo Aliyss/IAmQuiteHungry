@@ -14,9 +14,9 @@ const getCurrentPage = async function (browser: Browser): Promise<Page | null> {
 	return null;
 }
 
-export const getBrowserSession = async (): Promise<Browser> => {
+export const getBrowserSession = async (headless: boolean = true): Promise<Browser> => {
 	return await puppeteer.launch({
-		headless: false,
+		headless: headless,
 		executablePath: getEdgePath(),
 		userDataDir: getAppDataPath(["IAmQuiteHungry", "cli", "browserDataDir"], true)
 	})
@@ -27,11 +27,10 @@ export const getBrowserLoginPage = async (browser: Browser) => {
 	if (!currentPage) {
 		throw Error("No Page has been detected!")
 	}
-	await currentPage.goto('https://login.migros.ch/')
 	return currentPage
 }
 
-export const getPageCookies = async (page: Page) => {
-	await page.goto('https://login.migros.ch/account')
+export const getPageCookies = async (page: Page, url: string) => {
+	await page.goto(url, { waitUntil: "networkidle2"})
 	return (await page.cookies())
 }

@@ -1,0 +1,857 @@
+{
+	"offset": 0,
+	"number": 4,
+	"results": [
+		{
+			"vegetarian": true,
+			"vegan": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 10,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 100,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 156.52,
+			"id": 646051,
+			"title": "Gulasch",
+			"readyInMinutes": 45,
+			"servings": 3,
+			"sourceUrl": "http://www.foodista.com/recipe/YGWX47HZ/gulasch-for-mucka",
+			"image": "https://spoonacular.com/recipeImages/646051-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "You can never have too many main course recipes, so give Gulasch a try. One serving contains <b>380 calories</b>, <b>16g of protein</b>, and <b>1g of fat</b>. For <b>$1.39 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements\n of vitamins and minerals. If you have bunch of parsley, caraway seeds, cucumber, and a few other ingredients on hand, you can make it. To use up the corn flour you could follow this main course with the <a href=\"https://spoonacular.com/recipes/corn-cookies-552\n651\">Corn Cookies</a> as a dessert. 1 person has made this recipe and would make it again. It is a good option if you're following a <b>gluten free and vegan</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things conside\nred, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is tremendous. Try <a href=\"https://spoonacular.com/recipes/beef-gulasch-151110\">Beef Gulasch</a>, and <a href=\"https://spoonacular.com/recipes/szegediner-gulasch-german-sauerkraut-beef-goulash-for-sundaysupper-682816\">Szegediner Gulasch (German Sauerkraut Beef Goulash) for #SundaySupper</a> for similar recipes.",
+			"cuisines": [
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free",
+				"dairy free",
+				"lacto ovo vegetarian",
+				"vegan"
+			],
+			"occasions": [
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Fry the onions in some olive oil until they are all glassy and soft, then add the paprika and the peppers, and keep it on the heat a little while longer (~5min.) Then add the cucumber, again keep it on the heat another couple minutes.Now just toss in your potatoes, add some water until they are almost completely covered. Throw in the rest of the spices; caraway, bay leaf, tomato paste, parsley, chili flakes and salt. Taste, add a little more if you need to. You can go pretty heavy on the paprika, but should be careful with the caraway, it's pretty intense.At this point you just cover the whole thing, and let it simmer for a while, until the potatoes are through. Check on  the water situation every now and again, the potatoes should be almost completely covered at all times.When the potatoes are through you can start the thickening process. I just dissolved one teaspoon of flour in a little bit of water (you don't just want to throw it in the gulasch, since the flour could form into little chunks) So just pour in your mixture, slowly (not everything at once!), let it simmer and wait to see how much it thickens, and then if still to watery, add more.I also took out a couple of the potatoes, mashed them, and put them back (just another way to make the whole thing less watery)",
+							"ingredients": [
+								{
+									"id": 1032009,
+									"name": "red pepper flakes",
+									"localizedName": "red pepper flakes",
+									"image": "red-pepper-flakes.jpg"
+								},
+								{
+									"id": 11887,
+									"name": "tomato paste",
+									"localizedName": "tomato paste",
+									"image": "tomato-paste.jpg"
+								},
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 2004,
+									"name": "bay leaves",
+									"localizedName": "bay leaves",
+									"image": "bay-leaves.jpg"
+								},
+								{
+									"id": 11206,
+									"name": "cucumber",
+									"localizedName": "cucumber",
+									"image": "cucumber.jpg"
+								},
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								},
+								{
+									"id": 2005,
+									"name": "caraway seeds",
+									"localizedName": "caraway seeds",
+									"image": "caraway-seeds.jpg"
+								},
+								{
+									"id": 2028,
+									"name": "paprika",
+									"localizedName": "paprika",
+									"image": "paprika.jpg"
+								},
+								{
+									"id": 11297,
+									"name": "parsley",
+									"localizedName": "parsley",
+									"image": "parsley.jpg"
+								},
+								{
+									"id": 10111333,
+									"name": "peppers",
+									"localizedName": "peppers",
+									"image": "green-pepper.jpg"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 2035,
+									"name": "spices",
+									"localizedName": "spices",
+									"image": "spices.png"
+								},
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": [
+							],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/gulasch-646051"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 16,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 95,
+			"healthScore": 28,
+			"creditsText": "afrolems.com",
+			"sourceName": "afrolems.com",
+			"pricePerServing": 146.54,
+			"id": 716300,
+			"title": "Plantain Pizza",
+			"readyInMinutes": 45,
+			"servings": 3,
+			"sourceUrl": "http://www.afrolems.com/2014/03/08/plantain-pizza/",
+			"image": "https://spoonacular.com/recipeImages/716300-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "The recipe Plantain Pizza could satisfy your Mediterranean craving in roughly <b>45 minutes</b>. One serving contains <b>659 calories</b>, <b>27g of protein</b>, and <b>23g of fat</b>. This recipe serves 3 and costs $1.47 per serving. A few peop\nle made this recipe, and 95 would say it hit the spot. It works well as an affordable main course. It is a good option if you're following a <b>dairy free</b> diet. Head to the store and pick up oil, bell pepper, sugar, and a few other things to make it today. \nTo use up the oil you could follow this main course with the <a href=\"https://spoonacular.com/recipes/vegan-mango-banana-bread-49650\">Vegan Mango Banana Bread</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 91%\n</b>. This score is outstanding. Try <a href=\"https://spoonacular.com/recipes/how-to-spiralize-a-plantain-plantain-rice-and-beans-563745\">How to Spiralize a Plantain & Plantain “Rice” and Beans</a>, <a href=\"https://spoonacular.com/recipes/temptation-plantain-569527\">Temptation Plantain</a>, and <a href=\"https://spoonacular.com/recipes/plantain-cupcakes-518695\">Plantain Cupcakes</a> for similar recipes.",
+			"cuisines": [
+				"Mediterranean",
+				"Italian",
+				"European"
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"dairy free"
+			],
+			"occasions": [
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Dissolve the yeast in warm water and leave to stand for about 5 minutes.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 18375,
+									"name": "yeast",
+									"localizedName": "yeast",
+									"image": "yeast-granules.jpg"
+								}
+							],
+							"equipment": [
+							],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 2,
+							"step": "Mix the oil, flour, salt, sugar and mashed plantain and pour in the dissolved yeast.Knead the dough till its elastic which may take aBout 15-20 minutes By hand or 10 minutes in a mixer.Coat a Bowl lightly with oil and place the dough in it. Cover with a plastic wrap and leave to rise between 1.5 – 2 hours.While the dough is rising, heat up the oil for the sauce, fry the Blended tomato and pepper, season and stir fry the Beef in the tomato sauce. Set aside.When the dough rises, divide into two.",
+							"ingredients": [
+								{
+									"id": 11549,
+									"name": "tomato sauce",
+									"localizedName": "tomato sauce",
+									"image": "tomato-sauce-or-pasta-sauce.jpg"
+								},
+								{
+									"id": 99295,
+									"name": "plantain",
+									"localizedName": "plantain",
+									"image": "plantains.jpg"
+								},
+								{
+									"id": 1002030,
+									"name": "pepper",
+									"localizedName": "pepper",
+									"image": "pepper.jpg"
+								},
+								{
+									"id": 11529,
+									"name": "tomato",
+									"localizedName": "tomato",
+									"image": "tomato.png"
+								},
+								{
+									"id": 0,
+									"name": "dough",
+									"localizedName": "dough",
+									"image": "pizza-dough"
+								},
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 18375,
+									"name": "yeast",
+									"localizedName": "yeast",
+									"image": "yeast-granules.jpg"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								},
+								{
+									"id": 10018364,
+									"name": "wrap",
+									"localizedName": "wrap",
+									"image": "flour-tortilla.jpg"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404730,
+									"name": "plastic wrap",
+									"localizedName": "plastic wrap",
+									"image": "plastic-wrap.jpg"
+								},
+								{
+									"id": 404726,
+									"name": "blender",
+									"localizedName": "blender",
+									"image": "blender.png"
+								},
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							],
+							"length": {
+								"number": 150,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Sprinkle some flour on a flat surface and with a rolling pin, flatten out the dough but not excessively.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "dough",
+									"localizedName": "dough",
+									"image": "pizza-dough"
+								},
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404746,
+									"name": "rolling pin",
+									"localizedName": "rolling pin",
+									"image": "rolling-pin.jpg"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Cut the dough into your desired shape, rub some oil on it and spread your sauce and toppings on it and set aside.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "spread",
+									"localizedName": "spread",
+									"image": ""
+								},
+								{
+									"id": 0,
+									"name": "dough",
+									"localizedName": "dough",
+									"image": "pizza-dough"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								},
+								{
+									"id": 1012034,
+									"name": "dry seasoning rub",
+									"localizedName": "dry seasoning rub",
+									"image": "seasoning.png"
+								}
+							],
+							"equipment": [
+							]
+						},
+						{
+							"number": 5,
+							"step": "Heat up your oven to 350 F and place your pizza dough on a lightly oiled foil pan and",
+							"ingredients": [
+								{
+									"id": 93610,
+									"name": "pizza dough",
+									"localizedName": "pizza dough",
+									"image": "pizza-dough.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404765,
+									"name": "aluminum foil",
+									"localizedName": "aluminum foil",
+									"image": "aluminum-foil.png"
+								},
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg",
+									"temperature": {
+										"number": 350,
+										"unit": "Fahrenheit"
+									}
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 6,
+							"step": "Bake for 12-15 mins.",
+							"ingredients": [
+							],
+							"equipment": [
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg"
+								}
+							],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 7,
+							"step": "Serve warm",
+							"ingredients": [
+							],
+							"equipment": [
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/plantain-pizza-716300"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 7,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 0,
+			"healthScore": 12,
+			"creditsText": "Sally Cooks",
+			"license": "spoonacular's terms",
+			"sourceName": "spoonacular",
+			"pricePerServing": 122.04,
+			"id": 157459,
+			"title": "Spicy Coconut Chicken Curry",
+			"author": "Sally Cooks",
+			"readyInMinutes": 20,
+			"servings": 4,
+			"sourceUrl": "http://spoonacular.com/-1385114639460",
+			"image": "https://spoonacular.com/recipeImages/157459-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Spicy Coconut Chicken Curry might be just the main course you are searching for. Watching your figure? This gluten free recipe has <b>275 calories</b>, <b>16g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 4 and costs $1.22 per serving. From preparation to the plate, this recipe takes about <b>20 minutes</b>. If you have squash, rice, jalapeño, and a few other ingredients on hand, you can make it. To use up the onion you could follow this main course with the <a href=\"https://spoonacular.com/recipes/candy-corn-cupcakes-63881\">Candy Corn Cupcakes</a> as a dessert. This recipe is typical of Indian cuisine. Try <a href=\"https://spoonacular.com/recipes/spicy-curry-coconut-chicken-noodle-soup-771785\">Spicy Curry-Coconut Chicken Noodle Soup</a>, <a href=\"https://spoonacular.com/recipes/spicy-coconut-chicken-curry-bowls-with-cardamom-basmati-rice-625603\">Spicy coconut chicken curry bowls with cardamom Basmati rice</a>, and <a href=\"https://spoonacular.com/recipes/spicy-vegan-thai-coconut-red-curry-with-coconut-saffron-rice-843078\">Spicy Vegan Thai Coconut Red Curry with Coconut-Saffron Rice</a> for similar recipes.",
+			"cuisines": [
+				"Indian",
+				"Asian"
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free"
+			],
+			"occasions": [
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Thanks for reading! You can find this recipe and many more of my original recipes at my blog here: http://sallycooks.com/2013/08/13/spicy-coconut-chicken-curry/ What to do:heat oil in a large pot over medium-high heatadd the chicken and onion; cook, stirring for about 5 minutesmix in the curry paste and remaining veggiescook, stirring for a few minutespour coconut milk into the pot and bring to a boiladd butter and simmer over medium heat until butter is melted, chicken is fully cooked and you’re ready to serve plain or over rice",
+							"ingredients": [
+								{
+									"id": 12118,
+									"name": "coconut milk",
+									"localizedName": "coconut milk",
+									"image": "coconut-milk.png"
+								},
+								{
+									"id": 93605,
+									"name": "curry paste",
+									"localizedName": "curry paste",
+									"image": "chili-paste.png"
+								},
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 12104,
+									"name": "coconut",
+									"localizedName": "coconut",
+									"image": "coconut.jpg"
+								},
+								{
+									"id": 1001,
+									"name": "butter",
+									"localizedName": "butter",
+									"image": "butter-sliced.jpg"
+								},
+								{
+									"id": 2015,
+									"name": "curry powder",
+									"localizedName": "curry powder",
+									"image": "curry-powder.jpg"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/spicy-coconut-chicken-curry-157459"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 14,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 34,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 560.53,
+			"id": 634573,
+			"title": "Beef and Prune Casserole",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/P6TV4HRY/beef-and-prune-casserole",
+			"image": "https://spoonacular.com/recipeImages/634573-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Beef and Prune Casserole might be just the main course you are searching for. For <b>$5.61 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>553 calories</b>,\n <b>39g of protein</b>, and <b>28g of fat</b> each. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. Only a few people made this recipe, and 1 would say it hit the\n spot. It is a good option if you're following a <b>caveman, gluten free, dairy free, and primal</b> diet. A mixture of full bodied wine, fat prunes, carrots, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the full b\nodied red wine you could follow this main course with the <a href=\"https://spoonacular.com/recipes/semolina-cakes-with-fig-compote-57476\">Semolina Cakes with Fig Compote</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular s\ncore of 76%</b>. This score is pretty good. Try <a href=\"https://spoonacular.com/recipes/passover-sweet-potato-and-prune-casserole-122076\">Passover Sweet Potato and Prune Casserole</a>, <a href=\"https://spoonacular.com/recipes/fragrant-moroccan-beef-date-honey-and-prune-tagine-crock-pot-119110\">Fragrant Moroccan Beef, Date, Honey and Prune Tagine - Crock Pot</a>, and <a href=\"https://spoonacular.com/recipes/bbq-beef-casserole-528307\">BBQ Beef Casserole</a> for similar recipes.",
+			"cuisines": [
+			],
+			"dishTypes": [
+				"lunch",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": [
+				"gluten free",
+				"dairy free"
+			],
+			"occasions": [
+				"fall",
+				"winter"
+			],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Warm the oil in a thick bottomed pan on the top of the stove, it doesnt need to be spitting just hot enough to let the meat brown",
+							"ingredients": [
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404794,
+									"name": "stove",
+									"localizedName": "stove",
+									"image": "oven.jpg"
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Dice the beef into man sized chunks, place in the pan and brown",
+							"ingredients": [
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Remove from the pan and put to one side, put the onions and garlic into the pan, pop the lid on, and let them sweat (cook without colouring). When they are tender, re-add the beef to the pan along with the stock, carrots, zuchinni and bay leaves and gently bring to the boil.",
+							"ingredients": [
+								{
+									"id": 2004,
+									"name": "bay leaves",
+									"localizedName": "bay leaves",
+									"image": "bay-leaves.jpg"
+								},
+								{
+									"id": 11124,
+									"name": "carrot",
+									"localizedName": "carrot",
+									"image": "sliced-carrot.png"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 1006615,
+									"name": "stock",
+									"localizedName": "stock",
+									"image": "chicken-broth.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 0,
+									"name": "pop",
+									"localizedName": "soft drink",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add the prunes.Season with salt and pepper  not much as you can always add more later on.",
+							"ingredients": [
+								{
+									"id": 1102047,
+									"name": "salt and pepper",
+									"localizedName": "salt and pepper",
+									"image": "salt-and-pepper.jpg"
+								},
+								{
+									"id": 9291,
+									"name": "prunes",
+									"localizedName": "prunes",
+									"image": "prunes.jpg"
+								}
+							],
+							"equipment": [
+							]
+						},
+						{
+							"number": 5,
+							"step": "Add red wine - dont be stingy  2 glasses",
+							"ingredients": [
+								{
+									"id": 14096,
+									"name": "red wine",
+									"localizedName": "red wine",
+									"image": "red-wine.jpg"
+								}
+							],
+							"equipment": [
+							]
+						},
+						{
+							"number": 6,
+							"step": "Replace lid and leave to cook slowly on top of the stove/ or oven at the lowest temperature for about 2.5 -3hours. The meat will be so tender it will cut like softened butter with all flavours mixed, mingled and having a love affair in the pot.",
+							"ingredients": [
+								{
+									"id": 1001,
+									"name": "butter",
+									"localizedName": "butter",
+									"image": "butter-sliced.jpg"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404794,
+									"name": "stove",
+									"localizedName": "stove",
+									"image": "oven.jpg"
+								},
+								{
+									"id": 404784,
+									"name": "oven",
+									"localizedName": "oven",
+									"image": "oven.jpg"
+								},
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 7,
+							"step": "Pour your self a large glass of red wine or G&T and relaxI normally serve with steamed or baked potatoes, broccoli and peas",
+							"ingredients": [
+								{
+									"id": 11090,
+									"name": "broccoli",
+									"localizedName": "broccoli",
+									"image": "broccoli.jpg"
+								},
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								},
+								{
+									"id": 14096,
+									"name": "red wine",
+									"localizedName": "red wine",
+									"image": "red-wine.jpg"
+								},
+								{
+									"id": 11304,
+									"name": "peas",
+									"localizedName": "peas",
+									"image": "peas.jpg"
+								}
+							],
+							"equipment": [
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/beef-and-prune-casserole-634573"
+		}
+	],
+	"totalResults": 1494
+}
