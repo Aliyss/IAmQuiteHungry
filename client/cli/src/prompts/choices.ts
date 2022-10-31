@@ -93,6 +93,11 @@ export const choices: { [any: string]: IChoice[] } = {
 			name: 'bring_account_details-shopping_lists',
 			message: 'Get Bring Shopping Lists',
 			auth: 'bring_login'
+		},
+		{
+			name: 'bring_account_details-upload_file',
+			message: 'Upload Bring Item File',
+			auth: 'bring_login'
 		}
 	],
 	spoonacular_account_details: [

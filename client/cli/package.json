@@ -1,6 +1,6 @@
 {
 	"name": "iaqh-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -27,12 +27,11 @@
 		"typescript": "^4.8.4"
 	},
 	"dependencies": {
-		"whatwg-fetch": "^3.0.0",
-		"es6-promise": "^4.2.4",
-		"url-parse": "^1.4.3",
-		"bring-shopping": "^1.4.3",
+		"bring-shopping": "github:Aliyss/node-bring-api",
+		"convert-units": "^3.0.0-beta.5",
 		"edge-paths": "^2.2.1",
 		"enquirer": "^2.3.6",
+		"es6-promise": "^4.2.4",
 		"migros-api-wrapper": "github:Aliyss/migros-api-wrapper",
 		"open": "^8.4.0",
 		"otplib": "^12.0.1",
@@ -41,6 +40,8 @@
 		"puppeteer-core": "^19.0.0",
 		"puppeteer-extra": "^3.3.4",
 		"puppeteer-extra-plugin-stealth": "^2.11.1",
-		"superagent": "^8.0.2"
+		"superagent": "^8.0.2",
+		"url-parse": "^1.4.3",
+		"whatwg-fetch": "^3.0.0"
 	}
 }

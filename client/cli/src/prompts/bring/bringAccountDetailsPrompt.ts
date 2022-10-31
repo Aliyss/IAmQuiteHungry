@@ -2,8 +2,16 @@ import { choices, IChoice } from "../choices";
 
 import { createSelectPrompt } from "../actionPrompt";
 import * as util from "util";
-import { bringAccountLoginCheck, bringGetItems, bringLoadLists } from "../../actions/bringAccount";
+import {
+	bringAccountLoginCheck,
+	bringGetItemDetails,
+	bringGetItems,
+	bringLoadLists,
+	bringUploadItemImage
+} from "../../actions/bringAccount";
 import { createBringListsSelectPrompt } from "./bringListDetailsPrompt";
+import { createBringItemsSelectPrompt } from "./bringItemDetailsPrompt";
+import superagent from "superagent";
 
 export const createBringAccountDetailsPrompt = async (): Promise<IChoice | any> => {
 	let promptResponse: IChoice = <IChoice>await createSelectPrompt(
@@ -31,6 +39,17 @@ export const createBringAccountDetailsPrompt = async (): Promise<IChoice | any> 
 			const lists = await bringLoadLists()
 			response = await createBringListsSelectPrompt(lists)
 			response = await bringGetItems(response)
+			break;
+		}
+		case 'bring_account_details-upload_file': {
+			const lists = await bringLoadLists()
+			response = await createBringListsSelectPrompt(lists)
+			const items = await bringGetItemDetails(response)
+			const selectedItem = await createBringItemsSelectPrompt(items)
+			response = await bringUploadItemImage(selectedItem, {
+				clientInstanceId: "clientInstanceId",
+				imageData: (await superagent.get("https://image.migros.ch/mo-custom/v-w-175-h-150/80148babd095b03a7082dbfa7a94568bde89b8b2/el-tony-mate.jpg").buffer(true).parse(superagent.parse.image)).body
+			})
 			break;
 		}
 		case '*-return': {

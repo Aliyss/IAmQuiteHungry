@@ -28,6 +28,21 @@ export const bringGetItems = async (listUUID: string) => {
 	return await bring.getItems(listUUID)
 }
 
+export const bringGetItemDetails = async (listUUID: string) => {
+	if (!bring) {
+		throw Error("Bring is not connected!")
+	}
+	return await bring.getItemsDetails(listUUID)
+}
+
+export const bringUploadItemImage = async (itemUUID: string, formData: Record<string, any>) => {
+	if (!bring) {
+		throw Error("Bring is not connected!")
+	}
+	return await bring.saveItemImage(itemUUID, formData)
+}
+
+
 export const bringSetItems = async (listUUID: string, items: any[]) => {
 	if (!bring) {
 		throw Error("Bring is not connected!")

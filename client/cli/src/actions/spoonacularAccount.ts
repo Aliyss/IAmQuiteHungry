@@ -1,9 +1,9 @@
 import { createSpoonacularAuthenticationPrompt } from "../prompts/authPrompt";
-import { createConfiguration, RecipesApi, SearchRecipes200Response } from "../sdk/spoonacular-sdk";
+import { ConvertAmounts200Response, createConfiguration, RecipesApi, SearchRecipes200Response } from "../sdk/spoonacular-sdk";
 import {
 	GetRandomRecipes200Response
 } from "../sdk/spoonacular-sdk/com/spoonacular/client/model/models/GetRandomRecipes200Response";
-import { RecipesApiGetRandomRecipesRequest, RecipesApiSearchRecipesRequest } from "../sdk/spoonacular-sdk/types/ObjectParamAPI";
+import { RecipesApiConvertAmountsRequest, RecipesApiGetRandomRecipesRequest, RecipesApiSearchRecipesRequest } from "../sdk/spoonacular-sdk/types/ObjectParamAPI";
 
 let spoonacular: RecipesApi | null = null
 
@@ -128,5 +128,17 @@ export const spoonacularSearchRecipes = async (options?: RecipesApiSearchRecipes
 		options?.offset,
 		options?.number,
 		options?.limitLicense
+	);
+}
+
+export const spoonacularConvertAmount = async (options: RecipesApiConvertAmountsRequest): Promise<ConvertAmounts200Response> => {
+	if (!spoonacular) {
+		throw Error("Spoonacular is not connected!")
+	}
+	return spoonacular.convertAmounts(
+		options.ingredientName,
+		options.sourceAmount,
+		options.sourceUnit,
+		options.targetUnit
 	);
 }
