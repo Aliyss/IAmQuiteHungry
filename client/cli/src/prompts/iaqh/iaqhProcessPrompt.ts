@@ -26,8 +26,10 @@ import { bringGetItems, bringLoadLists, bringSetItems } from "../../actions/brin
 import { spoonacularConvertAmount } from "../../actions/spoonacularAccount";
 
 const retrieveIngredientsFromRecipes = (selectedRecipes: any[]) => {
-	let necessaryIngredients: Record<string, any> = {}
+	const necessaryIngredients: Record<string, any> = {}
+	// eslint-disable-next-line no-loops/no-loops
 	for (let i = 0; i < selectedRecipes.length; i++) {
+		// eslint-disable-next-line no-loops/no-loops
 		for (let j = 0; j < selectedRecipes[i].extendedIngredients.length; j++) {
 
 			if (!necessaryIngredients[selectedRecipes[i].extendedIngredients[j].name]) {
@@ -97,7 +99,7 @@ const getAmountAndUnitFromItemConversion = async (itemMigros: Record<string, any
 	} catch (e) {
 		err = true
 	}
-	let amountMigrosAsUnit: number = 0;
+	let amountMigrosAsUnit = 0;
 	if (err) {
 		try {
 			const unitCount = await spoonacularConvertAmount({
@@ -144,10 +146,12 @@ const getAmountAndUnitFromItemConversion = async (itemMigros: Record<string, any
 }
 
 const createListFromIngredients = async (necessaryIngredientsList: any[]): Promise<any[]> => {
-	let ingredientMappings = iaqhRetrieveIngredientsMapping()
-	let addToList = []
+	const ingredientMappings = iaqhRetrieveIngredientsMapping()
+	const addToList = []
+	// eslint-disable-next-line no-loops/no-loops
 	for (let i = 0; i < necessaryIngredientsList.length; i++) {
-		let types = <{ name: string, amount: number, unitShort: string, originalName: string }[]>Object.values(necessaryIngredientsList[i].types)
+		const types = <{ name: string, amount: number, unitShort: string, originalName: string }[]>Object.values(necessaryIngredientsList[i].types)
+		// eslint-disable-next-line no-loops/no-loops
 		for (let j = 0; j < types.length; j++) {
 			if (ingredientMappings[types[j].name]) {
 				const dataConversion = await getAmountAndUnitFromItemConversion(ingredientMappings[types[j].name], types[j])
@@ -155,7 +159,7 @@ const createListFromIngredients = async (necessaryIngredientsList: any[]): Promi
 					id: ingredientMappings[types[j].name].id,
 					name: `${ingredientMappings[types[j].name].brand ? ingredientMappings[types[j].name].brand + ' ' : ''}${ingredientMappings[types[j].name].name}`,
 					amount: dataConversion.amount,
-					unitShort: dataConversion.unitShort,
+					unitShort: dataConversion.unitShort
 				})
 			} else if (ingredientMappings[types[j].originalName]) {
 				const dataConversion = await getAmountAndUnitFromItemConversion(ingredientMappings[types[j].originalName], types[j])
@@ -199,14 +203,14 @@ const createListFromIngredients = async (necessaryIngredientsList: any[]): Promi
 						unitShort: dataConversion.unitShort
 					})
 
-					let confirmationOriginalName = await createConfirmPrompt("add-originalName-to-productMapping", `Do you want to map ${types[j].originalName} to ${responseSelected.brand ? responseSelected.brand + ' ' : ''}${responseSelected.name}`)
+					const confirmationOriginalName = await createConfirmPrompt("add-originalName-to-productMapping", `Do you want to map ${types[j].originalName} to ${responseSelected.brand ? responseSelected.brand + ' ' : ''}${responseSelected.name}`)
 					if (confirmationOriginalName) {
 						ingredientMappings[types[j].originalName] = responseSelected
 					}
 					if (confirmationOriginalName && types[j].originalName === types[j].name) {
 						continue;
 					}
-					let confirmationCleanName = await createConfirmPrompt("add-cleanName-to-productMapping", `Do you want to map ${types[j].name} to ${responseSelected.brand ? responseSelected.brand + ' ' : ''}${responseSelected.name}`)
+					const confirmationCleanName = await createConfirmPrompt("add-cleanName-to-productMapping", `Do you want to map ${types[j].name} to ${responseSelected.brand ? responseSelected.brand + ' ' : ''}${responseSelected.name}`)
 					if (confirmationCleanName) {
 						ingredientMappings[types[j].name] = responseSelected
 					}
@@ -240,7 +244,7 @@ const cleanList = async (addToList: any[]): Promise<any[]> => {
 }
 
 export const createIaqhProcessPrompt = async (): Promise<IChoice | any> => {
-	let promptResponse: IChoice = <IChoice>await createSelectPrompt(
+	const promptResponse: IChoice = <IChoice>await createSelectPrompt(
 		'iaqh_details',
 		'IAQH - Account Details',
 		[...choices.iaqh_details, ...choices["*"]].filter(value => {
@@ -266,10 +270,10 @@ export const createIaqhProcessPrompt = async (): Promise<IChoice | any> => {
 			const selectedRecipes = Object.values(await createReceiptSelectPrompt(dishes.results, 14))
 			iaqhSaveRecipes(selectedRecipes)
 
-			let necessaryIngredientsList = Object.values(retrieveIngredientsFromRecipes(selectedRecipes))
-			let addToList = await createListFromIngredients(necessaryIngredientsList)
+			const necessaryIngredientsList = Object.values(retrieveIngredientsFromRecipes(selectedRecipes))
+			const addToList = await createListFromIngredients(necessaryIngredientsList)
 
-			let addToListClean: any[] = await cleanList(addToList)
+			const addToListClean: any[] = await cleanList(addToList)
 
 			const ingredientsInventory = iaqhRetrieveIngredientsInventory()
 			if (!ingredientsInventory.home) {
@@ -284,10 +288,12 @@ export const createIaqhProcessPrompt = async (): Promise<IChoice | any> => {
 
 			iaqhSaveIngredientsInventory(ingredientsInventory)
 
-			let homeInventory = await bringGetItems(ingredientsInventory.home)
-			let shoppingInventory = await bringGetItems(ingredientsInventory.shopping)
+			const homeInventory = await bringGetItems(ingredientsInventory.home)
+			const shoppingInventory = await bringGetItems(ingredientsInventory.shopping)
 
+			// eslint-disable-next-line no-loops/no-loops
 			for (let i = 0; i < homeInventory.purchase.length; i++) {
+				// eslint-disable-next-line no-loops/no-loops
 				for (let j = 0; j < addToListClean.length; j++) {
 					if (`${addToListClean[j].name} (${addToListClean[j].unitShort})` !== shoppingInventory.purchase[i].name) {
 						continue;
@@ -297,16 +303,30 @@ export const createIaqhProcessPrompt = async (): Promise<IChoice | any> => {
 						name: 'amount',
 						message: `How many ${shoppingInventory.purchase[i].name} do you have at home?`
 					})}`
+					addToListClean.splice(j, 1)
+					j--;
 				}
 			}
 
+			// eslint-disable-next-line no-loops/no-loops
 			for (let i = 0; i < shoppingInventory.purchase.length; i++) {
+				// eslint-disable-next-line no-loops/no-loops
 				for (let j = 0; j < addToListClean.length; j++) {
 					if (`${addToListClean[j].name} (${addToListClean[j].unitShort})` !== shoppingInventory.purchase[i].name) {
 						continue;
 					}
 					shoppingInventory.purchase[i].specification = `${parseFloat(shoppingInventory.purchase[i].specification) + addToListClean[j].amount}`
+					addToListClean.splice(j, 1)
+					j--;
 				}
+			}
+
+			// eslint-disable-next-line no-loops/no-loops
+			for (let i = 0; i < addToListClean.length; i++) {
+				shoppingInventory.purchase.push({
+					name: `${addToListClean[i].name} (${addToListClean[i].unitShort})`,
+					specification: addToListClean[i].amount
+				})
 			}
 
 			await bringSetItems(ingredientsInventory.home, homeInventory.purchase)
@@ -321,7 +341,7 @@ export const createIaqhProcessPrompt = async (): Promise<IChoice | any> => {
 			return promptResponse
 	}
 
-	console.log(util.inspect(response, {showHidden: false, depth: null, colors: true}))
+	console.log(util.inspect(response, { showHidden: false, depth: null, colors: true }))
 
 	return await createIaqhProcessPrompt();
 }

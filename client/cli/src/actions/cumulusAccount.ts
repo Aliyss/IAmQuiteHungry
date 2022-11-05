@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import { getBrowserLoginPage, getBrowserSession, getPageCookies } from "../utils/puppeteer";
 import {
 	ICumulusCookies,
@@ -13,10 +14,12 @@ export const cumulusAccountLoginCheck = (): boolean => {
 	return !!cumulusCookies;
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const cumulusAccountLogin = async () => {
 	const browser = await getBrowserSession()
 	const currentPage = await getBrowserLoginPage(browser)
 	const currentCookies = await getPageCookies(currentPage, `${MigrosApiPaths.cumulus}`)
+	console.log(currentCookies.map(u => u.name + "=" + u.value).join('; '))
 	await browser.close()
 
 	const cookiesObject = <Record<string, string>>currentCookies.reduce((obj, item) => Object.assign(obj, { [item.name]: item.value }), {});
@@ -35,6 +38,7 @@ export const cumulusAccountLogin = async () => {
 	cumulusCookies = cumulusCookiesTemp
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const cumulusAccountDetailsCumulusReceipts = async (cumulusReceiptsOptions: ICumulusReceiptsOptions) => {
 	if (!cumulusCookies) {
 		throw Error('Login Cookies are undefined!')
@@ -43,6 +47,7 @@ export const cumulusAccountDetailsCumulusReceipts = async (cumulusReceiptsOption
 	return await MigrosAPI.account.cumulus.getCumulusReceipts(cumulusReceiptsOptions, cumulusCookies)
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const cumulusAccountDetailsCumulusReceipt = async (cumulusReceiptOptions: ICumulusReceiptOptions) => {
 	if (!cumulusCookies) {
 		throw Error('Login Cookies are undefined!')

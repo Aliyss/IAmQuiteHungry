@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { getBrowserLoginPage, getBrowserSession, getPageCookies } from "../utils/puppeteer";
 import { MigrosAPI, ILoginCookies, MigrosApiPaths } from "migros-api-wrapper";
 import { combineCookies } from "../utils/combineCookies";
@@ -10,7 +11,7 @@ export const migrosAccountLoginCheck = (): boolean => {
 	return !!loginCookies;
 }
 
-const testMigrosAccountLogin = async (loggedInTest: boolean = true) =>  {
+const testMigrosAccountLogin = async (loggedInTest = true) =>  {
 	const browser = await getBrowserSession()
 	const currentPage = await getBrowserLoginPage(browser)
 
@@ -32,10 +33,12 @@ const testMigrosAccountLogin = async (loggedInTest: boolean = true) =>  {
 		}
 	}
 
-	let currentCookies = await getPageCookies(currentPage, MigrosApiPaths.login + "/account")
+	const currentCookies = await getPageCookies(currentPage, MigrosApiPaths.login + "/account")
+	console.log(currentCookies.map(u => u.name + "=" + u.value).join('; '))
 	const cookiesObject = <Record<string, string>>currentCookies.reduce((obj, item) => Object.assign(obj, { [item.name]: item.value }), {});
 
 	const loginCookiesTemp = {
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		__VCAP_ID__: cookiesObject["__VCAP_ID__"],
 		MDID: cookiesObject["MDID"],
 		JSESSIONID: cookiesObject["JSESSIONID"],
@@ -43,6 +46,7 @@ const testMigrosAccountLogin = async (loggedInTest: boolean = true) =>  {
 		MLRM: cookiesObject["MLRM"],
 		MTID: cookiesObject["MTID"],
 		hl: cookiesObject["hl"],
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		TS012f1684: cookiesObject["TS012f1684"]
 	}
 
@@ -57,6 +61,7 @@ const testMigrosAccountLogin = async (loggedInTest: boolean = true) =>  {
 	return (Object.keys(securityOptionsCheck.body).length !== 0)
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const migrosAccountLogin = async () => {
 
 	if (!(await testMigrosAccountLogin())) {
@@ -74,6 +79,7 @@ export const migrosAccountLogin = async () => {
 	return securityOptionsCheck.body
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const migrosAccountDetailsSecurityOptions = async () => {
 	if (!loginCookies) {
 		throw Error('Login Cookies are undefined!')
@@ -88,6 +94,7 @@ export const migrosAccountDetailsSecurityOptions = async () => {
 	return response.body
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const migrosAccountDetailsCumulusStats = async () => {
 	if (!loginCookies) {
 		throw Error('Login Cookies are undefined!')
